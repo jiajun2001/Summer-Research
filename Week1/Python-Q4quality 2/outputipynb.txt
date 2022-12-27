@@ -1,0 +1,385 @@
+********** question4-s01.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s02.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s04.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: ********** question4-s05.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an intergerPlease input an interger[]
+********** question4-s06.ipynb
+]0;IPython: Week1/Python-Q4quality 2please input an interger:please input an interger:[10, 14, 15, 16, 20]
+********** question4-s100.ipynb
+]0;IPython: Week1/Python-Q4quality 2assign a number into:insert another number: ---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.ipynb in <module>
+      2     if i >= m and i <=n and(i%3 == 0 or i%2 ==0)and i%6 !=0 :
+      3         s.append(i)
+----> 4 print(s)
+
+NameError: name 's' is not defined
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-1-face29bac4b8> in <module>
+----> 1 get_ipython().run_line_magic('run', 'question4-s100.ipynb')
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2342                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2343             with self.builtin_trap:
+-> 2344                 result = fn(*args, **kwargs)
+   2345             return result
+   2346 
+
+~/opt/anaconda3/lib/python3.8/site-packages/decorator.py in fun(*args, **kw)
+    229             if not kwsyntax:
+    230                 args, kw = fix(args, kw, sig)
+--> 231             return caller(func, *(extras + args), **kw)
+    232     fun.__name__ = func.__name__
+    233     fun.__doc__ = func.__doc__
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188 
+    189         if callable(arg):
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magics/execution.py in run(self, parameter_s, runner, file_finder)
+    722             with preserve_keys(self.shell.user_ns, '__file__'):
+    723                 self.shell.user_ns['__file__'] = filename
+--> 724                 self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+    725             return
+    726 
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
+   2829                     result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
+   2830                     if raise_exceptions:
+-> 2831                         result.raise_error()
+   2832                     elif not result.success:
+   2833                         break
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in raise_error(self)
+    329             raise self.error_before_exec
+    330         if self.error_in_exec is not None:
+--> 331             raise self.error_in_exec
+    332 
+    333     def __repr__(self):
+
+    [... skipping hidden 1 frame]
+
+<ipython-input-1-c5627a83983d> in <module>
+      2     if i >= m and i <=n and(i%3 == 0 or i%2 ==0)and i%6 !=0 :
+      3         s.append(i)
+----> 4 print(s)
+
+NameError: name 's' is not defined
+********** question4-s105.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s112.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s113.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: m is 1, n is 1
+[]
+********** question4-s114.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer m: Please input an integer n: The variable m is 1 and n is 1
+[]
+********** question4-s115.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input the first integerPlease input the second integers[]
+********** question4-s116.ipynb
+]0;IPython: Week1/Python-Q4quality 2m: n: []
+********** question4-s118.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s120.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:
+Please input an integer:
+[]
+********** question4-s121.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s123.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s124.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s126.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input a integer: Please input another integer: ---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s126.ipynb in <module>
+----> 1 print(f'{m}, {n}')
+      2 num_match_criteria = []
+
+NameError: name 'm' is not defined
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-1-7b2c3b2abeb1> in <module>
+----> 1 get_ipython().run_line_magic('run', 'question4-s126.ipynb')
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2342                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2343             with self.builtin_trap:
+-> 2344                 result = fn(*args, **kwargs)
+   2345             return result
+   2346 
+
+~/opt/anaconda3/lib/python3.8/site-packages/decorator.py in fun(*args, **kw)
+    229             if not kwsyntax:
+    230                 args, kw = fix(args, kw, sig)
+--> 231             return caller(func, *(extras + args), **kw)
+    232     fun.__name__ = func.__name__
+    233     fun.__doc__ = func.__doc__
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188 
+    189         if callable(arg):
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magics/execution.py in run(self, parameter_s, runner, file_finder)
+    722             with preserve_keys(self.shell.user_ns, '__file__'):
+    723                 self.shell.user_ns['__file__'] = filename
+--> 724                 self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+    725             return
+    726 
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
+   2829                     result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
+   2830                     if raise_exceptions:
+-> 2831                         result.raise_error()
+   2832                     elif not result.success:
+   2833                         break
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in raise_error(self)
+    329             raise self.error_before_exec
+    330         if self.error_in_exec is not None:
+--> 331             raise self.error_in_exec
+    332 
+    333     def __repr__(self):
+
+    [... skipping hidden 1 frame]
+
+<ipython-input-1-7308eb8161aa> in <module>
+----> 1 print(f'{m}, {n}')
+      2 num_match_criteria = []
+
+NameError: name 'm' is not defined
+********** question4-s127.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input another integer: []
+********** question4-s129.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s137.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:Please input an integer:---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+~/Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s137.ipynb in <module>
+      1 list_q4=[]
+----> 2 for i in list_q3_forloop:
+      3     if i%2==0 or i%3==0:
+      4         list_q4.append(i)
+      5 for j in list_q4:
+
+NameError: name 'list_q3_forloop' is not defined
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-1-02004e36a335> in <module>
+----> 1 get_ipython().run_line_magic('run', 'question4-s137.ipynb')
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2342                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2343             with self.builtin_trap:
+-> 2344                 result = fn(*args, **kwargs)
+   2345             return result
+   2346 
+
+~/opt/anaconda3/lib/python3.8/site-packages/decorator.py in fun(*args, **kw)
+    229             if not kwsyntax:
+    230                 args, kw = fix(args, kw, sig)
+--> 231             return caller(func, *(extras + args), **kw)
+    232     fun.__name__ = func.__name__
+    233     fun.__doc__ = func.__doc__
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188 
+    189         if callable(arg):
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magics/execution.py in run(self, parameter_s, runner, file_finder)
+    722             with preserve_keys(self.shell.user_ns, '__file__'):
+    723                 self.shell.user_ns['__file__'] = filename
+--> 724                 self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+    725             return
+    726 
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
+   2829                     result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
+   2830                     if raise_exceptions:
+-> 2831                         result.raise_error()
+   2832                     elif not result.success:
+   2833                         break
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in raise_error(self)
+    329             raise self.error_before_exec
+    330         if self.error_in_exec is not None:
+--> 331             raise self.error_in_exec
+    332 
+    333     def __repr__(self):
+
+    [... skipping hidden 1 frame]
+
+<ipython-input-1-0aebc43e007e> in <module>
+      1 list_q4=[]
+----> 2 for i in list_q3_forloop:
+      3     if i%2==0 or i%3==0:
+      4         list_q4.append(i)
+      5 for j in list_q4:
+
+NameError: name 'list_q3_forloop' is not defined
+********** question4-s16.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:Please input an integer:[]
+********** question4-s17.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input a integer: Please input a integer: []
+********** question4-s19.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:Please input an integer:---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+~/Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s19.ipynb in <module>
+----> 1 for num in range(m, n+1):
+      2     if num%6 != 0 and (num%3 == 0 or num%2 ==0):
+      3         li.append(num)
+      4 print(li)
+
+TypeError: can only concatenate str (not "int") to str
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-1-efdb4f9b480b> in <module>
+----> 1 get_ipython().run_line_magic('run', 'question4-s19.ipynb')
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in run_line_magic(self, magic_name, line, _stack_depth)
+   2342                 kwargs['local_ns'] = self.get_local_scope(stack_depth)
+   2343             with self.builtin_trap:
+-> 2344                 result = fn(*args, **kwargs)
+   2345             return result
+   2346 
+
+~/opt/anaconda3/lib/python3.8/site-packages/decorator.py in fun(*args, **kw)
+    229             if not kwsyntax:
+    230                 args, kw = fix(args, kw, sig)
+--> 231             return caller(func, *(extras + args), **kw)
+    232     fun.__name__ = func.__name__
+    233     fun.__doc__ = func.__doc__
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magic.py in <lambda>(f, *a, **k)
+    185     # but it's overkill for just that one bit of state.
+    186     def magic_deco(arg):
+--> 187         call = lambda f, *a, **k: f(*a, **k)
+    188 
+    189         if callable(arg):
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magics/execution.py in run(self, parameter_s, runner, file_finder)
+    722             with preserve_keys(self.shell.user_ns, '__file__'):
+    723                 self.shell.user_ns['__file__'] = filename
+--> 724                 self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+    725             return
+    726 
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in safe_execfile_ipy(self, fname, shell_futures, raise_exceptions)
+   2829                     result = self.run_cell(cell, silent=True, shell_futures=shell_futures)
+   2830                     if raise_exceptions:
+-> 2831                         result.raise_error()
+   2832                     elif not result.success:
+   2833                         break
+
+~/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py in raise_error(self)
+    329             raise self.error_before_exec
+    330         if self.error_in_exec is not None:
+--> 331             raise self.error_in_exec
+    332 
+    333     def __repr__(self):
+
+    [... skipping hidden 1 frame]
+
+<ipython-input-1-ffb80c68393a> in <module>
+----> 1 for num in range(m, n+1):
+      2     if num%6 != 0 and (num%3 == 0 or num%2 ==0):
+      3         li.append(num)
+      4 print(li)
+
+TypeError: can only concatenate str (not "int") to str
+********** question4-s22.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s23.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s24.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s25.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s26.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please enter an integer for m: Please enter an integer for n: []
+********** question4-s27.ipynb
+]0;IPython: Week1/Python-Q4quality 2 Please input an integer :  Please input an integer : []
+********** question4-s31.ipynb
+]0;IPython: Week1/Python-Q4quality 2please input an integer: please input an integer: []
+********** question4-s32.ipynb
+]0;IPython: Week1/Python-Q4quality 2please intput an interger: please intput an interger: []
+********** question4-s34.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s37.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input another integer: []
+********** question4-s38.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:Please input an integer:[]
+********** question4-s39.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please enter an integer: Please enter another integer: []
+********** question4-s46.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s48.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s49.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input first number:Please input second number:[]
+********** question4-s52.ipynb
+]0;IPython: Week1/Python-Q4quality 2Input your integer here: Input your second integer here: []
+********** question4-s53.ipynb
+]0;IPython: Week1/Python-Q4quality 2  File "<ipython-input-1-94cf4fd12e21>", line 2
+    n = int(input('Please input an interger: '))
+    ^
+IndentationError: unexpected indent
+
+Traceback (most recent call last):
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+
+  File "<ipython-input-1-d06282597fd4>", line 1, in <module>
+    get_ipython().run_line_magic('run', 'question4-s53.ipynb')
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 2344, in run_line_magic
+    result = fn(*args, **kwargs)
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/decorator.py", line 231, in fun
+    return caller(func, *(extras + args), **kw)
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magic.py", line 187, in <lambda>
+    call = lambda f, *a, **k: f(*a, **k)
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/magics/execution.py", line 724, in run
+    self.shell.safe_execfile_ipy(filename, raise_exceptions=True)
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 2831, in safe_execfile_ipy
+    result.raise_error()
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 329, in raise_error
+    raise self.error_before_exec
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/interactiveshell.py", line 3136, in run_cell_async
+    code_ast = compiler.ast_parse(cell, filename=cell_name)
+
+  File "/Users/apple/opt/anaconda3/lib/python3.8/site-packages/IPython/core/compilerop.py", line 101, in ast_parse
+    return compile(source, filename, symbol, self.flags | PyCF_ONLY_AST, 1)
+
+  File "<ipython-input-1-94cf4fd12e21>", line 2
+    n = int(input('Please input an interger: '))
+    ^
+IndentationError: unexpected indent
+
+********** question4-s54.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer: Please input an integer: []
+********** question4-s58.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer:Please input an integer:[]
+********** question4-s59.ipynb
+]0;IPython: Week1/Python-Q4quality 2Please input an integer for m: Please input an integer for n: []
+**********

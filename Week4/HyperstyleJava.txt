@@ -1,0 +1,60 @@
+Task 1-a
+{"quality": {"code": "BAD", "text": "Code quality (beta): BAD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 13, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 14, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 26, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 39, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 40, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if (((y <= x) && (x <= z)) || ((z <= x) && (x <= y))) {", "line_number": 3, "column_number": 52, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 20, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 21, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 33, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 46, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 47, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if (((x <= y) && (y <= z)) || ((z <= y) && (y <= x))) {", "line_number": 5, "column_number": 59, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "IndentationCheck", "text": "'method def rcurly' has incorrect indentation level 5, expected level should be 4.", "line": "}", "line_number": 10, "column_number": 6, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 1-b
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryLocalBeforeReturn", "text": "Consider simply returning the value vs storing it in local variable 'middle'", "line": "return middle;", "line_number": 10, "column_number": 1, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 1-c
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 1-d
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 1-e
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 2-a
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i % rest == 0) && (i % leaf == 0)) {", "line_number": 8, "column_number": 17, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i % rest == 0) && (i % leaf == 0)) {", "line_number": 8, "column_number": 36, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 2-b
+{"quality": {"code": "MODERATE", "text": "Code quality (beta): MODERATE"}, "issues": [{"code": "MultipleVariableDeclarationsCheck", "text": "Each variable declaration must be in its own statement.", "line": "int gcd = leaf, div = rest;", "line_number": 3, "column_number": 9, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UselessParentheses", "text": "Useless parentheses.", "line": "return (branch / lcm) + 1;", "line_number": 10, "column_number": 1, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 2-c
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 2-d
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 2-e
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "MultipleVariableDeclarationsCheck", "text": "Each variable declaration must be in its own statement.", "line": "int pos = 0, nextLeaf = 0;", "line_number": 4, "column_number": 9, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 3-a
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i != j) && (v[i] <= v[j]) && (v[j] - v[i] < y - x)) {", "line_number": 7, "column_number": 21, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i != j) && (v[i] <= v[j]) && (v[j] - v[i] < y - x)) {", "line_number": 7, "column_number": 33, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i != j) && (v[i] <= v[j]) && (v[j] - v[i] < y - x)) {", "line_number": 7, "column_number": 51, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 3-b
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 3-c
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "while ((j > 0) && (v[i] < sorted[j - 1])) {", "line_number": 7, "column_number": 20, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "while ((j > 0) && (v[i] < sorted[j - 1])) {", "line_number": 7, "column_number": 31, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 3-d
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((j == y.length) || ((i < x.length) && (x[i] < y[j]))) {", "line_number": 33, "column_number": 17, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((j == y.length) || ((i < x.length) && (x[i] < y[j]))) {", "line_number": 33, "column_number": 36, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((j == y.length) || ((i < x.length) && (x[i] < y[j]))) {", "line_number": 33, "column_number": 37, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((j == y.length) || ((i < x.length) && (x[i] < y[j]))) {", "line_number": 33, "column_number": 55, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 3-e
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i == 0) || (dist < near)) {", "line_number": 14, "column_number": 17, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "if ((i == 0) || (dist < near)) {", "line_number": 14, "column_number": 29, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UselessParentheses", "text": "Useless parentheses.", "line": "n = ((v[i] < v[k]) ? i : k);", "line_number": 16, "column_number": 1, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UselessParentheses", "text": "Useless parentheses.", "line": "n = ((v[i] < v[k]) ? i : k);", "line_number": 16, "column_number": 1, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 4-a
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 4-b
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 4-c
+{"quality": {"code": "MODERATE", "text": "Code quality (beta): MODERATE"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "for (int i = 1; (check && i < n); i = i + 1) {", "line_number": 5, "column_number": 25, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "for (int j = 0; (check && j < i); j = j + 1) {", "line_number": 6, "column_number": 29, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+
+Task 4-d
+{"quality": {"code": "EXCELLENT", "text": "Code quality (beta): EXCELLENT"}, "issues": []}
+
+Task 4-e
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if ((i - 1 > 0) && (j + 1 < n)) {", "line_number": 9, "column_number": 24, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}, {"code": "UnnecessaryParenthesesCheck", "text": "Unnecessary parentheses around expression.", "line": "} else if ((i - 1 > 0) && (j + 1 < n)) {", "line_number": 9, "column_number": 39, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}
+

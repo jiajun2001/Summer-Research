@@ -1,0 +1,214 @@
+************* Module question4-s01
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:10:23: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:1:0: C0103: Module name "question4-s01" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:12:8: W0127: Assigning the same variable 'i' to itself (self-assigning-variable)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s01.py:18:8: W0127: Assigning the same variable 'i' to itself (self-assigning-variable)
+************* Module question4-s02
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s02.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s02.py:1:0: C0103: Module name "question4-s02" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s02.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s04
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s04.py:6:0: W0622: Redefining built-in 'list' (redefined-builtin)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s04.py:1:0: C0103: Module name "question4-s04" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s04.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s04.py:9:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s05
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s05.py:1:0: C0103: Module name "question4-s05" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s05.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s06
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s06.py:7:0: W0622: Redefining built-in 'list' (redefined-builtin)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s06.py:1:0: C0103: Module name "question4-s06" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s06.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s100
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:7:21: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:1:0: C0103: Module name "question4-s100" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:10:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:11:8: E0602: Undefined variable 's' (undefined-variable)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s100.py:12:6: E0602: Undefined variable 's' (undefined-variable)
+************* Module question4-s105
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s105.py:8:54: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s105.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s105.py:1:0: C0103: Module name "question4-s105" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s105.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s112
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s112.py:6:0: C0325: Unnecessary parens after 'not' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s112.py:1:0: C0103: Module name "question4-s112" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s112.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s113
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s113.py:1:0: C0103: Module name "question4-s113" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s113.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s114
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s114.py:1:0: C0103: Module name "question4-s114" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s114.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s114.py:2:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s114.py:4:10: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+************* Module question4-s115
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s115.py:11:26: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s115.py:20:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s115.py:1:0: C0103: Module name "question4-s115" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s115.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s115.py:15:4: R1724: Unnecessary "elif" after "continue" (no-else-continue)
+************* Module question4-s116
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s116.py:1:0: C0103: Module name "question4-s116" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s116.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s118
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s118.py:7:0: C0301: Line too long (104/100) (line-too-long)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s118.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s118.py:1:0: C0103: Module name "question4-s118" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s118.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s118.py:7:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s120
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s120.py:1:0: C0103: Module name "question4-s120" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s120.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s121
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s121.py:1:0: C0103: Module name "question4-s121" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s121.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s121.py:6:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s123
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s123.py:11:25: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s123.py:1:0: C0103: Module name "question4-s123" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s123.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s123.py:9:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s124
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s124.py:13:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s124.py:14:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s124.py:16:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s124.py:1:0: C0103: Module name "question4-s124" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s124.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s126
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s126.py:1:0: C0103: Module name "question4-s126" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s126.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s126.py:4:9: E0602: Undefined variable 'm' (undefined-variable)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s126.py:7:15: E0602: Undefined variable 'm' (undefined-variable)
+************* Module question4-s127
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s127.py:8:0: C0301: Line too long (130/100) (line-too-long)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s127.py:1:0: C0103: Module name "question4-s127" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s127.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s129
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s129.py:7:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s129.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s129.py:1:0: C0103: Module name "question4-s129" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s129.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s129.py:10:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s137
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s137.py:1:0: C0103: Module name "question4-s137" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s137.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s137.py:6:9: E0602: Undefined variable 'list_q3_forloop' (undefined-variable)
+************* Module question4-s16
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s16.py:1:0: C0103: Module name "question4-s16" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s16.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s17
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s17.py:1:0: C0103: Module name "question4-s17" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s17.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s17.py:7:4: R1724: Unnecessary "elif" after "continue" (no-else-continue)
+************* Module question4-s19
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s19.py:1:0: C0103: Module name "question4-s19" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s19.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s22
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:1:0: C0103: Module name "question4-s22" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:2:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:3:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s22.py:7:4: R1724: Unnecessary "elif" after "continue" (no-else-continue)
+************* Module question4-s23
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s23.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s23.py:1:0: C0103: Module name "question4-s23" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s23.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s24
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s24.py:5:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s24.py:1:0: C0103: Module name "question4-s24" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s24.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s24.py:8:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s25
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:6:31: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:7:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:1:0: C0103: Module name "question4-s25" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s25.py:8:12: W0127: Assigning the same variable 'list4' to itself (self-assigning-variable)
+************* Module question4-s26
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s26.py:1:0: C0103: Module name "question4-s26" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s26.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s26.py:7:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s27
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s27.py:9:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s27.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s27.py:1:0: C0103: Module name "question4-s27" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s27.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s31
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s31.py:1:0: C0103: Module name "question4-s31" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s31.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s32
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s32.py:1:0: C0103: Module name "question4-s32" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s32.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s34
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s34.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s34.py:1:0: C0103: Module name "question4-s34" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s34.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s34.py:7:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s37
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s37.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s37.py:1:0: C0103: Module name "question4-s37" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s37.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s38
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s38.py:1:0: C0103: Module name "question4-s38" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s38.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s38.py:2:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s38.py:3:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+************* Module question4-s39
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s39.py:14:20: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s39.py:16:28: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s39.py:1:0: C0103: Module name "question4-s39" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s39.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s46
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s46.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s46.py:12:0: C0305: Trailing newlines (trailing-newlines)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s46.py:1:0: C0103: Module name "question4-s46" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s46.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s48
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s48.py:1:0: C0103: Module name "question4-s48" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s48.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s49
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s49.py:1:0: C0103: Module name "question4-s49" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s49.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s49.py:10:12: C0103: Constant name "nothing" doesn't conform to UPPER_CASE naming style (invalid-name)
+************* Module question4-s52
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s52.py:1:0: C0103: Module name "question4-s52" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s52.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s52.py:10:7: R1716: Simplify chained comparison between the operands (chained-comparison)
+************* Module question4-s53
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s53.py:2:1: E0001: unexpected indent (<unknown>, line 2) (syntax-error)
+************* Module question4-s54
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s54.py:1:0: C0103: Module name "question4-s54" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s54.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module question4-s58
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s58.py:1:0: C0103: Module name "question4-s58" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s58.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s58.py:2:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s58.py:3:14: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+************* Module question4-s59
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s59.py:11:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s59.py:1:0: C0103: Module name "question4-s59" doesn't conform to snake_case naming style (invalid-name)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s59.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Desktop/SummerResearch/Week1/Python-Q4quality 2/question4-s59.py:1:0: R0801: Similar lines in 2 files
+==question4-s38:1
+==question4-s58:1
+m = int(input(f'Please input an integer:'))
+n = int(input(f'Please input an integer:'))
+
+li_4=[]
+for i in range(m,n+1):#large than r equal to m, smaller or equal than n
+    if i%3==0 or i%2==0:#Divisible by 3 or divisible by 2
+        li_4.append(i)
+    if i%6==0:
+        li_4.remove(i)#Not divisible by 6
+print(li_4) (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 5.80/10 (previous run: 5.80/10, +0.00)
+
+************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************

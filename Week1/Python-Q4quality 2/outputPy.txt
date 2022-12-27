@@ -1,0 +1,65 @@
+********** question4-s01.py
+********** question4-s02.py
+********** question4-s04.py
+********** question4-s05.py
+********** question4-s06.py
+********** question4-s100.py
+Traceback (most recent call last):
+  File "question4-s100.py", line 12, in <module>
+    print(s)
+NameError: name 's' is not defined
+********** question4-s105.py
+********** question4-s112.py
+********** question4-s113.py
+********** question4-s114.py
+********** question4-s115.py
+********** question4-s116.py
+********** question4-s118.py
+********** question4-s120.py
+********** question4-s121.py
+********** question4-s123.py
+********** question4-s124.py
+********** question4-s126.py
+Traceback (most recent call last):
+  File "question4-s126.py", line 4, in <module>
+    print(f'{m}, {n}')
+NameError: name 'm' is not defined
+********** question4-s127.py
+********** question4-s129.py
+********** question4-s137.py
+Traceback (most recent call last):
+  File "question4-s137.py", line 6, in <module>
+    for i in list_q3_forloop:
+NameError: name 'list_q3_forloop' is not defined
+********** question4-s16.py
+********** question4-s17.py
+********** question4-s19.py
+Traceback (most recent call last):
+  File "question4-s19.py", line 7, in <module>
+    for num in range(m, n+1):
+TypeError: can only concatenate str (not "int") to str
+********** question4-s22.py
+********** question4-s23.py
+********** question4-s24.py
+********** question4-s25.py
+********** question4-s26.py
+********** question4-s27.py
+********** question4-s31.py
+********** question4-s32.py
+********** question4-s34.py
+********** question4-s37.py
+********** question4-s38.py
+********** question4-s39.py
+********** question4-s46.py
+********** question4-s48.py
+********** question4-s49.py
+********** question4-s52.py
+********** question4-s53.py
+  File "question4-s53.py", line 2
+    n = int(input('Please input an interger: '))
+    ^
+IndentationError: unexpected indent
+********** question4-s54.py
+********** question4-s58.py
+********** question4-s59.py
+**********

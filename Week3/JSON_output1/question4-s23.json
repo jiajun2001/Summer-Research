@@ -1,0 +1,1 @@
+{"quality": {"code": "GOOD", "text": "Code quality (beta): GOOD"}, "issues": [{"code": "E226", "text": "missing whitespace around arithmetic operator", "line": "for x in range(m, n+1):", "line_number": 10, "column_number": 20, "category": "CODE_STYLE", "difficulty": "EASY", "influence_on_penalty": 0}]}

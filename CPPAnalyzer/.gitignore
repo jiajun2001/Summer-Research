@@ -1,0 +1,8 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore temp folder
+/temp/*.json
+
+# Ignore hyperstyle
+/hyperstyle

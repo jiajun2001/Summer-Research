@@ -1,0 +1,13 @@
+--G0
+bad-indentation 3
+invalid-name 1
+--G1 
+bad-indentation 3
+--G2
+line-too-long 4
+trailing-whitespace 2
+--G3
+pointless-string-statement 1
+no-else-return 1
+--G4
+global-statement 4
