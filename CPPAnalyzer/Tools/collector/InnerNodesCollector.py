@@ -6,11 +6,13 @@ import os.path
 import json
 
 nodes = []
+idSet = set()
 
 def InnerNodesCollectorHelper(nodeType, attribute, sourceFile, targetFile):
     f = open(sourceFile)
     jsonData = json.load(f)
     nodes.clear()
+    idSet.clear()
     for ele in jsonData:
         InnerNodesCollector(ele["inner"], nodeType, attribute)
 
@@ -27,7 +29,9 @@ def InnerNodesCollectorHelper(nodeType, attribute, sourceFile, targetFile):
 def InnerNodesCollector(json, nodeType, attribute):
     # Depth First Search for 'if' nodes
     for ele in json:
-        if ele[attribute] == nodeType:
-            nodes.append(ele)
+        if ele[attribute] == nodeType and ele["id"] not in idSet:
+                nodes.append(ele)
+                idSet.add(ele["id"])
+
         if "inner" in ele.keys():
             InnerNodesCollector(ele["inner"], nodeType, attribute) 
