@@ -14,7 +14,7 @@ def InnerNodesCollectorHelper(nodeType, attribute, sourceFile, targetFile):
     nodes.clear()
     idSet.clear()
     for ele in jsonData:
-        InnerNodesCollector(ele["inner"], nodeType, attribute)
+        InnerNodesCollector(ele["inner"], nodeType, attribute, 0)
 
     # Store function nodes into a new json file
     # Delete temp files
@@ -26,12 +26,14 @@ def InnerNodesCollectorHelper(nodeType, attribute, sourceFile, targetFile):
         jsonFile.write(jsonString)
 
 
-def InnerNodesCollector(json, nodeType, attribute):
-    # Depth First Search for 'if' nodes
+def InnerNodesCollector(json, nodeType, attribute, lineNum):
     for ele in json:
+        
         if ele[attribute] == nodeType and ele["id"] not in idSet:
-                nodes.append(ele)
-                idSet.add(ele["id"])
-
+            if ele["range"]["begin"].get("line") != None:
+                lineNum = ele["range"]["begin"]["line"]
+            ele["range"]["begin"].update({"line":lineNum})
+            nodes.append(ele)
+            idSet.add(ele["id"])
         if "inner" in ele.keys():
-            InnerNodesCollector(ele["inner"], nodeType, attribute) 
+            InnerNodesCollector(ele["inner"], nodeType, attribute, lineNum) 

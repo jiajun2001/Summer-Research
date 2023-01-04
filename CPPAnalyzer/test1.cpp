@@ -9,17 +9,22 @@ int XX_MARKER_XX;
 int main() {
     bool a = true;
     bool b = false;
-    if (b == 1) {
-        int c = 1;
-        if (a == false) {
-            int d = 1;
-            if (a == false) {
-                return 1;
+    bool c = true;
+    bool d = false;
+    if ((a == 1 && ((((((c == 0))))))) && ((b == true) && (d == true))) {
+        if (a == true || b == false) {
+            if ((c == false) && (d == true)) {
+                if (d == true && (((((((((a == true)))))))))) {
+                    return 0;
+                }
             }
         }
     }
     return 0;
 }
+
+
+
 
 
 

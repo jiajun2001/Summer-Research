@@ -8,5 +8,5 @@ HeaderPreprocessor.HeaderPreprocessor(fileName)
 
 SubRoutineCollector.FunctionCollector(fileName)
 
-Rule1Detector.Rule1Detector()
+Rule1Detector.Rule1Detector(fileName)
 
