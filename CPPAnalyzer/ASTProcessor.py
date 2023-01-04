@@ -1,12 +1,12 @@
-import sys
-from Tools import HeaderPreprocessor
-from Tools import FunctionCollector
-from Tools import IfCollector
+from Tools.util import HeaderPreprocessor
+from Tools.collector import SubRoutineCollector
+from Tools.detector import Rule1Detector
 
 fileName = "test1.cpp"
 
 HeaderPreprocessor.HeaderPreprocessor(fileName)
 
-FunctionCollector.FunctionCollector(fileName)
+SubRoutineCollector.FunctionCollector(fileName)
 
-IfCollector.IfCollectorHelper()
+Rule1Detector.Rule1Detector()
+
