@@ -7,8 +7,9 @@ def ConsecutiveReturnCollectorHelper(sourceFile, targetFile):
     f = open(sourceFile)
     jsonData = json.load(f)
     nodes.clear()
-    for ele in jsonData:
-        ConsecutiveReturnCollector(ele["inner"])
+    # for ele in jsonData:
+    #     ConsecutiveReturnCollector(ele["inner"])
+    ConsecutiveReturnCollector(jsonData[1]["inner"])
     
     with open("{target}".format(target = targetFile), "w") as jsonFile:
         jsonString = json.dumps(nodes)
@@ -17,10 +18,9 @@ def ConsecutiveReturnCollectorHelper(sourceFile, targetFile):
 
 def ConsecutiveReturnCollector(json):
     for ele in json:
-        if ele["inner"] != None:
+        if "inner" in ele:
             curNode = ele["inner"]
-            for i in range(len(curNode) - 1):
-                if curNode[i]["kind"] == "IfStmt" and curNode[i + 1]["kind"] == "ReturnStmt":
+            for i in range(len(curNode)):
+                if i < len(curNode) - 1 and curNode[i]["kind"] == "IfStmt" and curNode[i + 1]["kind"] == "ReturnStmt":
                     nodes.append([curNode[i], curNode[i + 1]])
-                if "inner" in curNode[i].keys():
-                    ConsecutiveReturnCollector(curNode[i]["inner"])
+                ConsecutiveReturnCollector([curNode[i]])
