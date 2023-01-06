@@ -1,4 +1,5 @@
 from Tools.collector import InnerNodesCollector
+from Tools.collector import BooleanOperatorCollector
 
 # Load json data
 import json
@@ -10,7 +11,7 @@ def Rule1Detector(filename):
         "temp/functionNodes.json", 
         "temp/ifNodes.json"
     )
-    InnerNodesCollector.InnerNodesCollectorHelper(
+    BooleanOperatorCollector.BooleanOperatorCollectorHelper(
         "BinaryOperator", 
         "kind", 
         "temp/ifNodes.json", 

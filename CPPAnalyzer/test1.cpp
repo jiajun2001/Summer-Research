@@ -6,32 +6,27 @@
 int XX_MARKER_XX;
 
 bool myFun() {
-    int a = 1;
-    int b = 2;
-    bool d = true;
-    if ((a < 1) && (b > 2)) {
-        if (a > 100) return true;
-        return false;
-
-        if (b < 100) {
-            if (d == true) {
-                return false;
+    bool a = true;
+    bool b = true;
+    if (((((((((((((((a == true)))))))))))) && (((((b == true)))))))) {
+        if (((((a == true))) && b == true) && a == true && b == false) {
+            if (((((a == true))) && b == true) && a == true && b == false) {
+                if (((((a == true))) && ((((((((b == true))))))))) && a == true && b == false) {
+                    return true;
+                }
+                return true;
             }
             return true;
         }
-    } else if (a > 100) {
-        if (d == false) {
+        if (((((a == true))) && b == true)) {
+            if (((((a == true))) && b == true)) {
+                return true;
+            }
             return true;
-        } 
-        int c = 1;
-        if ((c > 100) && (b > 1)) {
-            return false;
         }
-        return true;
-    } else {
-        if (a > 100) return true;
-        return false;
     }
+    int c = 0;
+    return false;
 }
 
 
