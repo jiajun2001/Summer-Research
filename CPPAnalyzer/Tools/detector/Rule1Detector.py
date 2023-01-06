@@ -31,7 +31,7 @@ def getLValueType(json):
         if ele["valueCategory"] == "lvalue" and ele["type"]["qualType"] == "bool":
                 return True
         if "inner" in ele.keys():
-            if ele["inner"] != None:
+            if ele.get("inner") != None:
                 return getLValueType(ele["inner"]) 
     return False
 

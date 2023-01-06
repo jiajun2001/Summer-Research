@@ -6,30 +6,39 @@
 int XX_MARKER_XX;
 
 bool myFun() {
-    int num1 = 15;
-    int num2 = 20;
-    int aaaaaaaaa = 10;
-    if (num1 < 15 && num2 < 30) {
-        if (aaaaaaaaa == 1) {
-            return true;
-        }
-        return false;
-    }
     int a = 1;
-    return false;
-    if (num1 == 12) {
-        return true;
-        if (num1 == 12) {
+    int b = 2;
+    bool d = true;
+    if ((a < 1) && (b > 2)) {
+        if (a > 100) return true;
+        return false;
+
+        if (b < 100) {
+            if (d == true) {
+                return false;
+            }
             return true;
         }
+    } else if (a > 100) {
+        if (d == false) {
+            return true;
+        } 
+        int c = 1;
+        if ((c > 100) && (b > 1)) {
+            return false;
+        }
+        return true;
+    } else {
+        if (a > 100) return true;
         return false;
     }
-    return false;
-
 }
+
 
 int main() {
     bool a = myFun();
+
+
     return 0;
 }
 
