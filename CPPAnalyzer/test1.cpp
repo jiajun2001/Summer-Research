@@ -1,39 +1,33 @@
-// #include <queue>
-// #include <vector>
-// #include <stack>
-// using namespace std;
-// #include <iostream>
+#include <stack>
+#include <queue>
+#include <vector>
+using namespace std;
+#include <iostream>
 int XX_MARKER_XX;
+
 
 bool myFun() {
     bool a = true;
     bool b = true;
-    if (((((((((((((((a == true)))))))))))) && (((((b == true)))))))) {
-        if (((((a == true))) && b == true) && a == true && b == false) {
-            if (((((a == true))) && b == true) && a == true && b == false) {
-                if (((((a == true))) && ((((((((b == true))))))))) && a == true && b == false) {
-                    return true;
-                }
-                return true;
-            }
-            return true;
-        }
-        if (((((a == true))) && b == true)) {
-            if (((((a == true))) && b == true)) {
-                return true;
-            }
-            return true;
+
+    if (a == true && b) {
+        if (b) {
+            a = b;
         }
     }
-    int c = 0;
-    return false;
+
+    if ((((a == true)) && b == 0)) {
+        if (((((((a == true))) && b == true))) || a == 1) {
+            return true;
+        }
+        return true;
+    }
+    return true;
 }
 
 
 int main() {
     bool a = myFun();
-
-
     return 0;
 }
 

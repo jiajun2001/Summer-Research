@@ -6,12 +6,11 @@ from Tools.detector import Rule3Detector
 
 fileName = "test1.cpp"
 
+# Preprocess Stage
 HeaderPreprocessor.HeaderPreprocessor(fileName)
-
 SubRoutineCollector.FunctionCollector(fileName)
 
+# Rule Detecting Stage
 Rule1Detector.Rule1Detector(fileName)
-
 Rule2Detector.Rule2Detector(fileName)
-
 Rule3Detector.Rule3Detector(fileName)
