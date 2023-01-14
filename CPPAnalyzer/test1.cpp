@@ -1,8 +1,9 @@
-#include <stack>
-#include <queue>
-#include <vector>
-using namespace std;
-#include <iostream>
+// #include <stack>
+// #include <queue>
+// #include <vector>
+// using namespace std;
+// #include <iostream>
+int XX_MARKER_XX;
 int XX_MARKER_XX;
 
 
@@ -30,10 +31,5 @@ int main() {
     bool a = myFun();
     return 0;
 }
-
-
-
-
-
 
 // Last line
