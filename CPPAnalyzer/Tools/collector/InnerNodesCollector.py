@@ -28,6 +28,8 @@ def InnerNodesCollectorHelper(nodeType, attribute, sourceFile, targetFile):
 
 def InnerNodesCollector(json, nodeType, attribute, lineNum):
     for ele in json:
+        if len(ele) == 0: 
+            continue
         if ele[attribute] == nodeType and ele["id"] not in idSet:
             if ele["range"]["begin"].get("line") != None:
                 lineNum = ele["range"]["begin"]["line"]
