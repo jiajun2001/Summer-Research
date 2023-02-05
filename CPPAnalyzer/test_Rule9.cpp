@@ -1,5 +1,7 @@
 // using namespace std;
 // #include <iostream> 
+int XX_MARKER_XX;
+int XX_MARKER_XX;
 
 
 void fun() {

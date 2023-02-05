@@ -1,12 +1,9 @@
-// #include <stack>
-// #include <queue>
-// #include <vector>
-// using namespace std;
 // #include <iostream>
+// using namespace std;
+// #include <vector>
+// #include <queue>
+// #include <stack>
 int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-
 
 
 bool myFun() {

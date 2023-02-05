@@ -28,6 +28,8 @@ def Rule9Detector(filename):
 
     # 1) Any nodes that are right after 'return' and 'break' an 'continue' 
     for ele in jsonData:
+        if ele.get("inner") == None:
+            continue
         for i in range(len(ele["inner"]) - 1):
             if ele["inner"][i]["kind"] == "ReturnStmt" or ele["inner"][i]["kind"] == "BreakStmt" or ele["inner"][i]["kind"] == "ContinueStmt":
                 printerForKeywords(ele["inner"][i], filename)
