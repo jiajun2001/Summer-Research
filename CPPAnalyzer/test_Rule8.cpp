@@ -1,50 +1,27 @@
 int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-int XX_MARKER_XX;
-
 
 int main(void) {
     int a = 1;
 
-    if (true == true) {
+    if (a == 3) {
        a = 1;
-    } else if (a == 2) {
-        int b = 1;
-    } else if (a == 4) {
-        if (a == 1) {
-
-        } else if (a == 1) {
-
-        } else {
-
-        }
     } else {
- 
+        double c = 1;
+        a = a;
+        int b = 1;
+        if (false) {
+            c = c;
+            if (a == 1) {
+                a = a;
+            } else if (c == 1) {
+                a++;
+            } else {
+                b = b;
+                a++;
+            }
+        }
     } 
 
-    for (int i = 0; i < 1; i++) {
 
-    }
-
-    for (int i = 0; i < 1; i++) {
-        if (a == 1) {
-
-        }
-    }
-
-    while (true) {
-        for (int i = 0; i < 1; i++) {
-        
-        }
-    }
-
-    while (true) {}
+    
 }

@@ -22,7 +22,7 @@ def HeaderPreprocessor(path):
             headers.append(statement)
             
     # Append XX_MARKER_XX into file     
-    headers.append("int XX_MARKER_XX;\n")
+    # headers.append("int XX_MARKER_XX;\n")
 
     # Append all headers and namespace declaration at the start of the file
     with open(new_name, "w") as configFile:

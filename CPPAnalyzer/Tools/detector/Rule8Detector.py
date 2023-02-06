@@ -1,13 +1,14 @@
 # Documentation for Rule 8 Detector
 # We will collect all if statements
 # 1) Check if the compound statement of 'if' statements is empty
-# 2) If it is not empty, check if there is any self-assignment
+# 2) Collect all binary operator nodes, check if there is any self-assignment
 
 # Load json data
 import json
 from Tools.collector import InnerNodesCollector
 
 def Rule8Detector(filename):
+    # Check if the compound statement of 'if' statements is empty
     # Process If Nodes
     f = open("temp/ifNodes.json")
     processStmt(f, filename);
@@ -30,9 +31,20 @@ def Rule8Detector(filename):
         "temp/forStatementNodes.json"
     )
     f = open("temp/forStatementNodes.json")
-    processStmt(f, filename);
+    processStmt(f, filename)
+
+    # Check if there is any self-assignment
+    InnerNodesCollector.InnerNodesCollectorHelper(
+        "BinaryOperator", 
+        "kind", 
+        "temp/functionNodes.json", 
+        "temp/binaryOperatorNodes.json"
+    )
+    f = open("temp/binaryOperatorNodes.json")
+    processBinaryOperator(f, filename)
 
 
+# Check if the statement is empty or not
 def processStmt(f, filename):
     jsonData = json.load(f)
 
@@ -58,7 +70,18 @@ def processStmt(f, filename):
                     else:
                         printerForEmptyStatementsB(childEle, filename)
 
-         # Check if there is any self-assignment
+
+def processBinaryOperator(f, filename):
+    jsonData = json.load(f)
+    # Check each binary operator node
+    for ele in jsonData:
+        # Check if the binary operator is '='
+        if ele["opcode"] == "=":
+            leftName = ele["inner"][0]["referencedDecl"]["name"]
+            # Check if is a self-assignment structure
+            if ele["inner"][1]["kind"] == "ImplicitCastExpr":
+                rightName = ele["inner"][1]["inner"][0]["referencedDecl"]["name"]
+                printSelfAssignment(ele, filename, rightName)
 
 
 def printerForEmptyStatementsA(json, filename, lineNum):
@@ -67,3 +90,6 @@ def printerForEmptyStatementsA(json, filename, lineNum):
 
 def printerForEmptyStatementsB(json, filename):
     print("{filename}:{row}:{col}: RRE008A: Detected empty statement".format(filename = filename, row = json["range"]["end"]["line"] - 1, col = json["range"]["begin"]["col"]))
+
+def printSelfAssignment(json, filename, variableName):
+    print("{filename}:{row}:{col}: RRE008C: Detected self-assignment for the variable '{var}' ".format(filename = filename, row = json["range"]["begin"]["line"], col = json["range"]["begin"]["col"], var = variableName)) 
