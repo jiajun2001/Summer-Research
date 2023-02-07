@@ -1,4 +1,5 @@
 # Documentation for Rule 8 Detector
+
 # We will collect all if statements
 # 1) Check if the compound statement of 'if' statements is empty
 # 2) Collect all binary operator nodes, check if there is any self-assignment
@@ -81,7 +82,9 @@ def processBinaryOperator(f, filename):
             # Check if is a self-assignment structure
             if ele["inner"][1]["kind"] == "ImplicitCastExpr":
                 rightName = ele["inner"][1]["inner"][0]["referencedDecl"]["name"]
-                printSelfAssignment(ele, filename, rightName)
+                # Detect self-assignment
+                if leftName == rightName:
+                    printSelfAssignment(ele, filename, rightName)
 
 
 def printerForEmptyStatementsA(json, filename, lineNum):

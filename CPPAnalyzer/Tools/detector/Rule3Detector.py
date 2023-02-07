@@ -1,3 +1,7 @@
+# Documentation for Rule 3 Detector
+
+# 
+
 # Load json data
 import json
 
