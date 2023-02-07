@@ -6,7 +6,7 @@ from Tools.detector import Rule3Detector
 from Tools.detector import Rule8Detector
 from Tools.detector import Rule9Detector
 
-fileName = "test_Rule3.cpp"
+fileName = "test_Rule123.cpp"
 
 # Preprocess Stage
 HeaderPreprocessor.HeaderPreprocessor(fileName)

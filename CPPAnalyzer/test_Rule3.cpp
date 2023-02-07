@@ -6,10 +6,18 @@ int main(void) {
     int c = 1;
 
     if (a == 1) {
-        a = b;
+        
     } else if (c == 1) {
         a++;
-    } else {
-        a++;
+    } 
+
+    if (a == 1) {
+        if (c == 1) {
+
+        }
     }
+
+    if (a == 1) {} else if (a == 1) {}
+
+
 }
